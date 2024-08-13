@@ -2,13 +2,21 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
+    backgroundImage: {
+      "general-insurance":
+        "url('@/assets/img/insurance/general-insurance.png')",
+      "health-insurance": "url('@/assets/img/insurance/health-insurance.png')",
+      "motor-insurance": "url('@/assets/img/insurance/motor-insurance.png')",
+      "property-insurance":
+        "url('@/assets/img/insurance/property-insurance.png')",
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -74,4 +82,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
