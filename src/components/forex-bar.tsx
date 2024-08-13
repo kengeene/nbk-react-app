@@ -1,7 +1,9 @@
 export default function ForexBar() {
   return (
     <>
-      <span className="text-center">FOREX</span>
+      <span className="text-center">
+        <strong>FOREX</strong>
+      </span>
       <span>
         <strong>USD:</strong> Buying: 86.17
       </span>
