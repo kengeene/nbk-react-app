@@ -1,12 +1,11 @@
 import TopLinks from "@/components/topLinks";
 import Banner from "@/assets/img/banner.png";
-import PersonalSolutions from "@/components/personal-solutions";
-import CorporateSolutions from "@/components/corporate-solutions";
 import ForexBar from "@/components/forex-bar";
 import SearchBar from "@/components/search-bar";
 import Footer from "@/components/footer";
+import { Outlet } from "react-router-dom";
 
-function App() {
+function Layout() {
   return (
     <div className="w-screen">
       <TopLinks />
@@ -14,10 +13,7 @@ function App() {
         <img src={Banner} width="100%" />
       </div>
       <div className="text-center py-10">
-        <PersonalSolutions />
-      </div>
-      <div className="text-center py-10 bg-[#F5F0F0]">
-        <CorporateSolutions />
+        <Outlet />
       </div>
       <div className="flex flex-row justify-evenly py-3 bg-[#F9EBE8]">
         <ForexBar />
@@ -32,4 +28,4 @@ function App() {
   );
 }
 
-export default App;
+export default Layout;
