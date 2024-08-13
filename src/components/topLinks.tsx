@@ -20,15 +20,23 @@ export default function TopLinks() {
           {" "}
           <img src={nbkLogo} />
         </div>
-        <div className="flex col-span-2 justify-end">
-          <span className="p-3">Home</span>
-          <span className="p-3">About Bancassurance</span>
-          <span className="p-3">Personal Solutions</span>
-          <span className="p-3">Corporate Solutions</span>
-          <span className="p-3">
+        <nav className="flex col-span-2 justify-end">
+          <a className="p-3 text-[#FFAA00]" href="#">
+            Home
+          </a>
+          <a className="p-3" href="#">
+            About Bancassurance
+          </a>
+          <a className="p-3" href="#">
+            Personal Solutions
+          </a>
+          <a className="p-3" href="#">
+            Corporate Solutions
+          </a>
+          <a className="p-3" href="#">
             <Search className="text-[#FFAA00]" />
-          </span>
-        </div>
+          </a>
+        </nav>
       </div>
     </>
   );
