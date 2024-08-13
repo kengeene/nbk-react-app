@@ -1,4 +1,4 @@
-import InsuranceCard from "@/components/personal-solutions/insurance-card";
+import InsuranceCard from "@/components/shared/insurance-card";
 
 export default function PersonalSolutions() {
   return (
