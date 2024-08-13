@@ -1,4 +1,9 @@
 import FooterImgOne from "@/assets/img/footer/footer-img-1.svg";
+import Facebook from "@/assets/img/footer/social-icons/Facebook.svg";
+import Instagram from "@/assets/img/footer/social-icons/instagram.svg";
+import linkedIn from "@/assets/img/footer/social-icons/linkedIn.svg";
+import twitter from "@/assets/img/footer/social-icons/twitter.svg";
+import youtube from "@/assets/img/footer/social-icons/youtube.svg";
 
 export default function Footer() {
   return (
@@ -37,6 +42,34 @@ export default function Footer() {
           <div>Sat : 8.30 am - 12.00 pm</div>
           <div>Sun : Closed</div>
           <div>Public Holidays : Closed</div>
+        </div>
+      </div>
+      <div className="grid grid-cols-12 bg-[#3C251F] text-white p-5">
+        <div className="text-xs col-span-6">
+          Regulated by the Central Bank of Kenya | © 2023 National Bank Limited.
+          All Rights Reserved.
+        </div>
+        <div className="text-xs col-span-5">
+          <span>Terms and Conditions</span> | <span>Disclaimer</span> |{" "}
+          <span>Tarrif Guide</span> | <span>Internet Privacy Policy</span>
+        </div>
+        {/* social icons */}
+        <div className="flex flex-row space-x-2 col-span-1">
+          <span>
+            <img src={Facebook} />
+          </span>
+          <span>
+            <img src={twitter} />
+          </span>
+          <span>
+            <img src={youtube} />
+          </span>
+          <span>
+            <img src={Instagram} />
+          </span>
+          <span>
+            <img src={linkedIn} />
+          </span>
         </div>
       </div>
     </>
