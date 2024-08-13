@@ -11,11 +11,13 @@ module.exports = {
   theme: {
     backgroundImage: {
       "general-insurance":
-        "url('@/assets/img/insurance/general-insurance.png')",
-      "health-insurance": "url('@/assets/img/insurance/health-insurance.png')",
-      "motor-insurance": "url('@/assets/img/insurance/motor-insurance.png')",
+        "url('@/assets/img/solutions/personal/general-insurance.png')",
+      "health-insurance":
+        "url('@/assets/img/solutions/personal/health-insurance.png')",
+      "motor-insurance":
+        "url('@/assets/img/solutions/personal/motor-insurance.png')",
       "property-insurance":
-        "url('@/assets/img/insurance/property-insurance.png')",
+        "url('@/assets/img/solutions/personal/property-insurance.png')",
       "footer-top": "url('@/assets/img/footer/footer-img-1.svg')",
     },
     container: {
