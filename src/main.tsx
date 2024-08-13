@@ -4,6 +4,7 @@ import Layout from "./Layout.tsx";
 import "@/assets/css/index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home.tsx";
+import About from "./About.tsx";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
       },
       {
         path: "about",
-        element: <div>About</div>,
+        element: <About />,
       },
     ],
   },
