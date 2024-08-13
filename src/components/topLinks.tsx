@@ -1,6 +1,6 @@
 import nbkLogo from "@/assets/img/nbkLogo.svg";
 import { Search } from "lucide-react";
-
+import { NavLink } from "react-router-dom";
 export default function TopLinks() {
   return (
     <>
@@ -21,12 +21,22 @@ export default function TopLinks() {
           <img src={nbkLogo} />
         </div>
         <nav className="flex col-span-2 justify-end">
-          <a className="p-3 text-[#FFAA00]" href="#">
+          <NavLink
+            className={({ isActive }) => {
+              return isActive ? "p-3 text-[#FFAA00]" : "p-3";
+            }}
+            to="/home"
+          >
             Home
-          </a>
-          <a className="p-3" href="#">
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => {
+              return isActive ? "p-3 text-[#FFAA00]" : "p-3";
+            }}
+            to="/about"
+          >
             About Bancassurance
-          </a>
+          </NavLink>
           <a className="p-3" href="#">
             Personal Solutions
           </a>
