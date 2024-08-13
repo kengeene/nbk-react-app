@@ -1,5 +1,4 @@
 import InsuranceCard from "@/components/personal-solutions/insurance-card";
-import GeneralInsurance from "@/assets/img/insurance/general-insurance.png";
 
 export default function PersonalSolutions() {
   return (
