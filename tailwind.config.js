@@ -16,6 +16,7 @@ module.exports = {
       "motor-insurance": "url('@/assets/img/insurance/motor-insurance.png')",
       "property-insurance":
         "url('@/assets/img/insurance/property-insurance.png')",
+      "footer-top": "url('@/assets/img/footer/footer-img-1.svg')",
     },
     container: {
       center: true,

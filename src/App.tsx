@@ -4,6 +4,7 @@ import PersonalSolutions from "@/components/personal-solutions";
 import CorporateSolutions from "@/components/corporate-solutions";
 import ForexBar from "@/components/forex-bar";
 import SearchBar from "@/components/search-bar";
+import Footer from "@/components/footer";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </div>
       <div className="flex justify-center my-10">
         <SearchBar />
+      </div>
+      <div className="flex flex-col justify-center py-10 my-10">
+        <Footer />
       </div>
     </div>
   );
