@@ -1,5 +1,5 @@
 import FooterImgOne from "@/assets/img/footer/footer-img-1.svg";
-import Facebook from "@/assets/img/footer/social-icons/Facebook.svg";
+import Facebook from "@/assets/img/footer/social-icons/facebook.svg";
 import Instagram from "@/assets/img/footer/social-icons/instagram.svg";
 import linkedIn from "@/assets/img/footer/social-icons/linkedIn.svg";
 import twitter from "@/assets/img/footer/social-icons/twitter.svg";
