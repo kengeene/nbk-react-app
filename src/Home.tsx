@@ -1,12 +1,14 @@
 import PersonalSolutions from "@/components/personal-solutions";
 import CorporateSolutions from "@/components/corporate-solutions";
-import Banner from "@/assets/img/banner.png";
+import HomeBanner from "@/assets/img/banners/home/banner.svg";
+import HomeBannerText from "@/assets/img/banners/home/text.svg";
+import Banner from "@/Banner";
 
 export default function Home() {
   return (
     <>
       <div className="mb-10">
-        <img src={Banner} width="100%" />
+        <Banner banner={HomeBanner} bannerText={HomeBannerText} />
       </div>
       <div className="text-center">
         <PersonalSolutions />
