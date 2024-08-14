@@ -5,7 +5,7 @@ export default function TopLinks() {
   return (
     <>
       <div
-        className="flex text-[#FFAA00] bg-[#3C251F] text-xs justify-end"
+        className="flex text-[#FFAA00] bg-[#3C251F] text-xs justify-end px-24"
         id="top"
       >
         <span className="min-w-fit p-2">Investor Relations</span>
@@ -18,7 +18,7 @@ export default function TopLinks() {
         <span className="w-fit p-2">Treasury Services</span>
         <span className="w-fit p-2">Contact Us</span>
       </div>
-      <div className="grid grid-cols-3 content-center">
+      <div className="grid grid-cols-3 content-center py-2 px-24">
         <div>
           {" "}
           <img src={nbkLogo} />

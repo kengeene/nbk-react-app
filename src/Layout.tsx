@@ -8,10 +8,10 @@ function Layout() {
   return (
     <div className="w-screen">
       <TopLinks />
-      <div className="text-center py-10">
+      <div className="text-center">
         <Outlet />
       </div>
-      <div className="flex flex-row justify-evenly py-3 bg-[#F9EBE8]">
+      <div className="flex flex-row justify-evenly py-3 px-24 bg-[#F9EBE8]">
         <ForexBar />
       </div>
       <div className="flex justify-center my-10">

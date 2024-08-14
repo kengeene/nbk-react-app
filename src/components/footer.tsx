@@ -13,7 +13,7 @@ export default function Footer() {
       <a href="#top">
         <img src={TopArrow} className="absolute h-12.5 right-2" />
       </a>
-      <div className="grid grid-cols-5 bg-[#FFBA00] p-10">
+      <div className="grid grid-cols-5 bg-[#FFBA00] py-10 px-24">
         <div className="flex flex-col">
           <h2>For You </h2>
           <div>Open an Account</div>
@@ -48,7 +48,7 @@ export default function Footer() {
           <div>Public Holidays : Closed</div>
         </div>
       </div>
-      <div className="grid grid-cols-12 bg-[#3C251F] text-white p-5">
+      <div className="grid grid-cols-12 bg-[#3C251F] text-white py-5 px-24">
         <div className="text-xs col-span-6">
           Regulated by the Central Bank of Kenya | © 2023 National Bank Limited.
           All Rights Reserved.
