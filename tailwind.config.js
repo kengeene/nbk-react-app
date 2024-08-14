@@ -18,6 +18,15 @@ module.exports = {
         "url('@/assets/img/solutions/insurance/motor-insurance.png')",
       "property-insurance":
         "url('@/assets/img/solutions/insurance/property-insurance.png')",
+
+      "corp-general-insurance":
+        "url('@/assets/img/solutions/corporate/general-insurance.svg')",
+      "corp-health-insurance":
+        "url('@/assets/img/solutions/corporate/health-insurance.svg')",
+      "corp-motor-insurance":
+        "url('@/assets/img/solutions/corporate/motor-insurance.svg')",
+      "corp-property-insurance":
+        "url('@/assets/img/solutions/corporate/property-insurance.svg')",
       "footer-top": "url('@/assets/img/footer/footer-img-1.svg')",
     },
     container: {

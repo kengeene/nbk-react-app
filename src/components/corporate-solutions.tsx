@@ -12,12 +12,21 @@ export default function CorporateSolutions() {
         insurance services in Kenya.
       </div>
       <div className="grid grid-cols-4 gap-4">
-        <InsuranceCard title="General Insurance" image="bg-general-insurance" />
-        <InsuranceCard title="Health Insurance" image="bg-health-insurance" />
-        <InsuranceCard title="Motor Insurance" image="bg-motor-insurance" />
+        <InsuranceCard
+          title="General Insurance"
+          image="bg-corp-general-insurance"
+        />
+        <InsuranceCard
+          title="Health Insurance"
+          image="bg-corp-health-insurance"
+        />
+        <InsuranceCard
+          title="Motor Insurance"
+          image="bg-corp-motor-insurance"
+        />
         <InsuranceCard
           title="Property Insurance"
-          image="bg-property-insurance"
+          image="bg-corp-property-insurance"
         />
       </div>
     </>
