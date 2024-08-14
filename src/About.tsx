@@ -9,9 +9,9 @@ export default function About() {
       <div className="mb-10">
         <Banner banner={AboutBanner} bannerText={AboutBannerText} />
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 px-24">
         <div className="m-10 text-left">
-          <div className="p-10">
+          <>
             <span className="text-2xl font-semibold">About Bancassurance</span>
             <p className="font-thin my-5">
               NBK Bancassurance Intermediary limited NBK Bancassurance
@@ -23,8 +23,8 @@ export default function About() {
               companies in Kenya to provide you with competitive produts and
               high standards of service.
             </p>
-          </div>
-          <div className="p-10">
+          </>
+          <>
             <span className="text-lg font-semibold">
               {" "}
               Why NBK Bancassurance Intermediary Ltd ( Not Insurance Agency).
@@ -39,9 +39,9 @@ export default function About() {
               </li>
               <li>Insurance claims</li>
             </ul>
-          </div>
+          </>
         </div>
-        <div className="m-20">
+        <div className="m-10">
           <FormComponent />
         </div>
       </div>
