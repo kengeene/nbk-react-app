@@ -4,7 +4,10 @@ import { NavLink } from "react-router-dom";
 export default function TopLinks() {
   return (
     <>
-      <div className="flex text-[#FFAA00] bg-[#3C251F] text-xs justify-end">
+      <div
+        className="flex text-[#FFAA00] bg-[#3C251F] text-xs justify-end"
+        id="top"
+      >
         <span className="min-w-fit p-2">Investor Relations</span>
         <span className="w-fit p-2">National Online Banking</span>
         <span className="w-fit p-2">

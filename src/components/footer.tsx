@@ -4,11 +4,15 @@ import Instagram from "@/assets/img/footer/social-icons/instagram.svg";
 import linkedIn from "@/assets/img/footer/social-icons/linkedIn.svg";
 import twitter from "@/assets/img/footer/social-icons/twitter.svg";
 import youtube from "@/assets/img/footer/social-icons/youtube.svg";
+import TopArrow from "@/assets/img/top-arrow.svg";
 
 export default function Footer() {
   return (
     <>
       <img src={FooterImgOne} />
+      <a href="#top">
+        <img src={TopArrow} className="absolute h-12.5 right-2" />
+      </a>
       <div className="grid grid-cols-5 bg-[#FFBA00] p-10">
         <div className="flex flex-col">
           <h2>For You </h2>
