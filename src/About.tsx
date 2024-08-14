@@ -1,8 +1,14 @@
 import FormComponent from "./form-component";
+import AboutBanner from "@/assets/img/banners/about/image.svg";
+import AboutBannerText from "@/assets/img/banners/about/text.svg";
+import Banner from "@/Banner";
 
 export default function About() {
   return (
     <>
+      <div className="mb-10">
+        <Banner banner={AboutBanner} bannerText={AboutBannerText} />
+      </div>
       <div className="grid grid-cols-2">
         <div className="m-10 text-left">
           <div className="p-10">
