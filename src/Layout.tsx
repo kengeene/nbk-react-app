@@ -1,5 +1,4 @@
 import TopLinks from "@/components/topLinks";
-import Banner from "@/assets/img/banner.png";
 import ForexBar from "@/components/forex-bar";
 import SearchBar from "@/components/search-bar";
 import Footer from "@/components/footer";
@@ -9,9 +8,6 @@ function Layout() {
   return (
     <div className="w-screen">
       <TopLinks />
-      <div>
-        <img src={Banner} width="100%" />
-      </div>
       <div className="text-center py-10">
         <Outlet />
       </div>
